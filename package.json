@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "test": "jest test/api-test.js",
-    "test-watch": "jest --watch --notify --notifyMode=change test/api-test.js"
+    "test": "jest test.js",
+    "test-watch": "jest --watch --notify --notifyMode=change test.js"
   },
   "dependencies": {
     "body-parser": "^1.20.0",
